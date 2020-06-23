@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Help page</title>
+	<script src="https://kit.fontawesome.com/224792b030.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="helpstyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<h1>How can we help you?</h1>
+		<p>
+		<h4>Translate into:</h4>
+	</p>
+		<p>
+			<select class="select">
+			<option class="option" id="language">Select language</option>
+		    <option class="option" value="English">English</option>
+		    <option class="option" value="Hindi">Hindi</option>
+		    <option class="option" value="Maradhi">Maradhi</option>
+		    <option class="option" value="Panjabi">Panjabi</option></p>
+		
+		</select>
+		</p>
+	</div>
+
+	<div class="nav">
+		<a href="home.html" active><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+	</div>
+
+	<div class="container">
+		<h2 style="text-align: center;margin-bottom: 14px;">Frequently Asked Questions</h2>
+		<button class="accordion">How can I register on portal?</button>
+		<div class="panel">
+		  <p>1.User can register by Clicking <a href="home.html">Homepage</a></p>
+		  <p>2.Select “Registration Type” as “Farmer” or "Trader"</p>
+		  <p>3.Provide your correct Email ID as you will receive Login ID and Password in the same.</p>
+		  <p>4.Once successfully Registered you will receive a Temporary Login ID & Password in the given e-mail.</p>
+		</div>
+
+		<button class="accordion">How to Login from portal?</button>
+		<div class="panel">
+		  <p>1.Login to the portal by clicking  icon on <a href="login.html">Login</a> through the system.</p>
+		</div>
+
+		<button class="accordion">Have Some Question?</button>
+		<div class="panel">
+		</div>
+	</div>
+
+		<!-- <div style="width: 100%;height: 400px;background-color: red;"> -->
+			
+		<!-- </div> -->
+
+	<div class="footer">
+		<div class="line"></div>
+		<div class="single-footer">
+			<p class="footer-heading"><b>Department of Agriculture</b></p>
+			<p>&copy; Krishi Bhavan, Tonca-Caranzalem, Goa</p>
+		</div>
+
+		<div class="single-footer">
+			<p class="footer-heading"><b>Navigation</b></p>
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">Dashboard</a></li>
+				<li><a href="#">Help</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</div>
+
+		<div class="social-media">
+			<p class="footer-heading"><b>FOLLOW US</b></p>
+			<a href="#"><i class="fab fa-facebook-square"></i></i></a>
+			<a href="#"><i class="fab fa-instagram-square"></i></a>
+			<a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+		</div>
+	</div>
+
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var panel = this.nextElementSibling;
+		    if (panel.style.display === "block") {
+		      panel.style.display = "none";
+		    } else {
+		      panel.style.display = "block";
+		    }
+		  });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,269 @@
+
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+		.logo
+		{
+			width: 40%;	
+			float: left;
+			height: 150px;
+			padding: 20px;
+			background-color: #4CAF50;
+		}
+		h1
+		{
+  			color: white;
+  			text-shadow: 2px 2px 4px #000000;
+		}
+		
+		.center
+		{
+			background-color: #4CAF50;
+			width: 30%;
+			/*background-image: url(goa.png);*/
+			height: 150px;
+			float: left;
+			padding: 20px;
+			text-align: center;
+		}
+		.center a
+		{
+			text-decoration: none;
+			color: #fff;
+		}
+		.header-right-section
+		{
+			background-color: #4CAF50;
+			width: 30%;
+			height: 150px;
+			float: right;
+			padding: 10px;
+			text-align: center;
+		}
+		.nav
+		{
+			float: left;
+			width: 100%;
+			position: -webkit-sticky;
+			position: sticky;
+			top: 0;
+			z-index: 1;
+		}
+		.header-right-section a
+		{
+			text-decoration: none;
+		}
+
+		.header-right-section p
+		{
+			padding: 9px;
+		}
+		.list1
+		{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			/*background-color: yellowgreen;*/
+			background: #333;
+		}
+		.list1-items
+		{
+			float: left;
+
+		}
+		.list1-items a
+		{
+			display: block;
+			color: white;
+			height: 53px;
+			font-size: 20px;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		.list1-items a:hover
+		{
+			background-color: #111;
+			/*background-color: forestgreen;*/
+		}
+		.active
+		{
+			background-color: #009933;
+		}
+		.option
+		{
+			cursor: pointer;
+			border-radius: 4px;
+			margin-bottom: 4px;
+			background-color: #1c8abd;
+			border: 2px solid transparent;
+			
+		}
+		#num
+		{
+			display: none;
+		}
+		.select
+		{
+
+			width: 160px;
+			cursor: pointer;
+			font-size: 17px;
+			color: white;
+			padding: 2px;
+			border: 1px solid transparent;
+			background-color: #1c8abd;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+		}
+		.select:hover
+		{
+			background-color: #39dc79;
+			cursor: pointer;
+		}
+		
+		.button1
+		{
+			text-align: center;
+			padding: 6px;
+			margin-top: 6px;
+			color: white;
+			border-radius: 15px;
+			cursor: pointer;
+			font-size: 16px;
+			background-color: #1c8abd;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+		.button1:hover
+		{
+			background-color: #39dc79;
+		}
+		
+		.container
+		{
+			
+			height: 1000px;
+		
+		}
+		.img1
+		{
+			height: 1000px;
+			background-image: url(img1.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			text-align: center;
+			background-origin: content-box;
+			background-position: 50% 70px;
+			/*background-origin: content-box;*/
+		}
+		.h
+		{
+  			
+  			top:50%;
+  			position: absolute;
+  			left:50%;
+  			text-shadow: 2px 2px 4px #000000;
+  			transform: translateX(-50%);
+  			
+		}
+		/*.slideshow
+		{
+			border-width: 10px;
+			border-style: solid;
+			width: 100%;
+			height: 100px;
+		}*/
+		.footer-heading
+		{
+			font-size: 25px;
+			padding: 3px;
+		}
+		.footer
+		{
+			background-color: #333;
+			padding: 50px;
+			height: 200px;
+			z-index: 1;
+			color: white;
+		}
+		.single-footer
+		{
+			width: 33%;
+			float: left;
+
+		}
+		.single-footer ul
+		{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		.single-footer ul a
+		{
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #fff;
+		}
+		.social-media
+		{
+			font-size: 26px;
+		}
+		.social-media a
+		{
+			display: block;
+			color: white;
+			float: left;
+			padding: 6px;
+			text-transform: none;
+
+		}
+		
+		.fa-facebook-square
+		{
+ 		 	background: #3B5998;
+  			color: white;
+		}
+		.fa-twitter-square
+		{
+  			background: #55ACEE;
+  			color: white;
+		}
+		.fa-linkedin-square
+		{
+			background: #007bb5;
+  			color: white;
+
+		}
+		.fa-instagram-square
+		{
+			background: #125688;
+  			color: white;
+
+		}
+
+@media screen and (max-width: 1060px)
+{
+	.footer
+	{
+		height: 600px;
+	}
+	.img1,.container
+	{
+		height: 1200px;
+	}
+	.header-right-section,.logo,.center
+	{
+		height: 300px;
+		padding: 80px;
+	}
+	.center h1
+	{
+
+		font-size: 15px;
+	}
+	
+}
