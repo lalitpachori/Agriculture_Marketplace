@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Profile.css">
+    <script src="https://kit.fontawesome.com/224792b030.js" crossorigin="anonymous"></script>
+    <title>Profile</title>
+</head>
+<body>
+    <h1>User Profile</h1>
+<div class="row">
+   
+    <div class="left-side-bar">
+      
+            <div class="User-link"> <i class="fa fa-user-circle-o icon" aria-hidden="true"></i><a href="#">User Info </a></div>
+            <div class="User-link"><i class="fa fa-credit-card-alt icon" aria-hidden="true"></i><a href="#">Transaction </a></div>
+
+            <div class="User-link"><i class="fa fa-shopping-cart icon" aria-hidden="true"></i> <a href="#">User Cart </a></div>
+
+            <div class="User-link"><i class="fa fa-bell icon" aria-hidden="true"></i><a href="#">Notification</a></div>
+    </div>
+
+    <div class="right-side-bar">
+    
+    <form action="/Profile" method="POST">
+
+        <img class="img" src="./image/Anonmyous_img.png" alt="">
+        <h1 id = "ProfileName">User Name</h1>
+
+        
+    
+        <div >
+            <h2>Email</h2>
+            <input class = " element" type="text" name=" email" placeholder="Enter your email">
+        </div>
+
+        <div >
+            <h2>Phone</h2>
+            <input class = " element" type="phone" name=" phone" placeholder="Enter your phone">
+        </div>
+
+        <div >
+            <h2>Address</h2>
+            <input class = " element" type="text" name=" Address" placeholder="Enter your Address">
+        </div>
+
+         <div >
+            <h2>Password</h2>
+            <input class = " element" type="password" name=" Password" placeholder="Enter your password">
+        </div>
+        
+        <button type="submit" class="btn">Save</button>
+    </form>
+
+    </div>
+ <div>
+     <script src="Profile.js"></script>
+</body>
+</html>
